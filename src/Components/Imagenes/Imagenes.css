@@ -1,0 +1,10 @@
+.Carousel{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+    }
+    

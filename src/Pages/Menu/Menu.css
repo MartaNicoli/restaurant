@@ -1,0 +1,9 @@
+.Menu{
+
+    height: 250px; /* altura deseada */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: center;
+
+}
