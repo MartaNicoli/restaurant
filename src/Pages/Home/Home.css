@@ -1,49 +1,5 @@
-import React from 'react';
-import Carousel from 'react-bootstrap/Carousel';
-import './Home.css';
 
 
 
 
 
-function Home({ images }) {
-  return (
-    <Carousel>
-      {images && images.map((image) => (
-        <Carousel.Item key={image.id}>
-          <h1>Mi Carrusel</h1>
-          <img
-            className="Carousel"
-            src={images.imageUrl}
-            alt={images.altText}
-          />
-        </Carousel.Item>
-
-      ))}
-    </Carousel>
-  );
-}
-export default Home
-
-
-
-
-
-
-
-// function Home() {
-//   const images = [
-//     { src: '../Imagenes/Slide1.jpg', alt: 'imagen1' },
-//     { src: '../Imagenes/Slide2.jpg', alt: 'imagen2' },
-//     { src: '../Imagenes/Slide3.jpg', alt: 'imagen3' },
-//   ];
-
-//   return (
-//     <div>
-//       <h1>Mis Imagenes</h1>
-//       <Carrusel images={images} />
-//     </div>
-//   );
-// }
-
-// export default Home;

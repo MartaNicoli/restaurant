@@ -23,16 +23,20 @@ const Card = () => {
         <img src={humitas} className="card-img-top" alt="card2"/>
         <div className="card-body">
           <h5 className="card-title">Humitas</h5>
-          <p className="card-text" style= {{textAlign:"justify"}}>This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p className="card-text" style= {{textAlign:"justify"}}>La humita es un plato tradicional chileno. Las humitas son un platillo muy sabroso y nutritivo, 
+          y son ideales para disfrutar en el almuerzo o la cena. También son una buena opción para vegetarianos y veganos
+         ya que pueden adaptarse fácilmente a una dieta sin carne.</p>
         </div>
       </div>
     </div>
     <div className="col">
-      <div className="card">nn
+      <div className="card">
         <img src={porotos_granados} className="card-img-top" alt="card3"/>
         <div className="card-body">
           <h5 className="card-title">Porotos granados</h5>
-          <p className="card-text" style= {{textAlign:"justify"}}>La cazuela de vacuno es un plato tradicional chileno. Se trata de un guiso hecho con carne de vacuno, usualmente cortada en cubos, que se cocina lentamente con una variedad de verduras, especias y líquidos hasta que la carne esté tierna y los sabores se hayan mezclado..</p>
+          <p className="card-text" style= {{textAlign:"justify"}}>La cazuela de vacuno es un plato tradicional chileno. 
+          Se trata de un guiso hecho con carne de vacuno, usualmente cortada en cubos, que se cocina lentamente con una variedad de verduras, 
+          especias y líquidos hasta que la carne esté tierna y los sabores se hayan mezclado.</p>
         </div>
       </div>
     </div>
@@ -41,7 +45,9 @@ const Card = () => {
         <img src={pastel_de_choclo} className="card-img-top" alt="card4"/>
         <div className="card-body">
           <h5 className="card-title">Pastel de choclo</h5>
-          <p className="card-text" style= {{textAlign:"justify"}}>Se trata de un pastel salado hecho con una masa de choclo (maíz tierno) y relleno de una mezcla de carne picada, cebolla, ajo, pasas, aceitunas y otros ingredientes.</p>
+          <p className="card-text" style= {{textAlign:"justify"}}>El pastel de choclo es un plato de la temporada de verano en Chile.
+          Consiste en una mezcla de maíz molido y condimentado,cubierto con una capa de carne y verduras,
+          y horneado hasta que se forme una costra dorada en la parte superior.</p>
         </div>
       </div>
     </div>
